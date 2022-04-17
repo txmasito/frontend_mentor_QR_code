@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    /* min-height: 100vh; */
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    /* padding: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    max-width: 380px;
+    /*height: 550px;*/
+    box-shadow: 0px 0px 40px 1px hsl(218 44% 22% / 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.imagen{
+    width: 340px;
+    height: 340px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    align-items: flex-start;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+img{
+    width: 350px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.parrafos{
+    /* width: 260px; */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-weight: 700;
+    
+}
+
+.paragraph{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
